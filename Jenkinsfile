@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        jdk 'jdk17'    // Must match the name configured in Global Tools
+        jdk 'jdk17'    // Must match the name configured in Global Tool
         maven 'Maven'  // Must match the name configured in Global Tools
     }
 
