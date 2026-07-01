@@ -113,19 +113,19 @@
 				<artifactId>jacoco-maven-plugin</artifactId>
 				<version>${jacoco.version}</version>
 				<executions>
-					<file>
+					<execution>
 						<id>jacoco-initialize</id>
 						<goals>
 							<goal>prepare-agent</goal>
 						</goals>
-					</file>
-					<file>
+					</execution>
+					<execution>
 						<id>jacoco-site</id>
 						<phase>package</phase>
 						<goals>
 							<goal>report</goal>
 						</goals>
-					</file>
+					</execution>
 				</executions>
 			</plugin>
 		</plugins>
